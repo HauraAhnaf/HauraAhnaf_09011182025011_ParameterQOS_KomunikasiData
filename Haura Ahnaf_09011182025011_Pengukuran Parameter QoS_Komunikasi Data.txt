@@ -1,0 +1,34 @@
+1. Throughput
+   Throughput = Jumlah data yang dikirim(Bytes) / waktu pengiriman(time span) 
+              = 24562618 Bytes / 431,155 s
+              = 56969,3451 Bytes / s * 8 (Convert to Kilobits / s)
+   Throughput = 455754,761 Kb/s
+
+2. Packet Loss
+   Paket diterima = Paket dikirim - Paket tidak terkirim
+                  = 29922 - 116
+                  = 29806
+
+   Packet loss = (Paket dikirim - Paket diterima / Paket dikirim) × 100%
+               = (29922 - 29806 / 29922) × 100%
+               = (116 / 29922) × 100%
+               = 0,00387674621 × 100%
+   Packet loss = 0,387674621%
+
+3. Delay
+   Total Delay = Total time 2 - Total time 1
+               = 2727544,082 - 2727975,237
+   Total Delay = 431,155278 ms
+
+   Rata rata delay  = Total Delay / Jumlah Packet Data
+                    = 431,155278 / 29921
+                    = 0,014409788 ms
+
+4. Jitter
+   Total Jitter  = Total Delay 2 - Total Delay 1
+                 = -431,155278 - (-0,000105)
+                 = -431,155173 ms
+
+   Rata rata jiter = Total Jitter / Total Packet
+                   = -431,155173 / 29920
+                   = -0,014410266 ms
