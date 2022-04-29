@@ -1,8 +1,8 @@
 1. Throughput
    Throughput = Jumlah data yang dikirim(Bytes) / waktu pengiriman(time span) 
               = 24562618 Bytes / 431,155 s
-              = 56969,3451 Bytes / s * 8 (Convert to Kilobits / s)
-   Throughput = 455754,761 Kb/s
+              = 56969,3451 Bytes / s * 8 (Convert to bits / s)
+   Throughput = 455754,7608 b/s = 455,7547608 kb/s 
 
 2. Packet Loss
    Paket diterima = Paket dikirim - Paket tidak terkirim
